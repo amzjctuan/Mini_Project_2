@@ -49,7 +49,7 @@ class mini_project_2:
 		# plt.show()
 
 		training_data = []
-	# def create_training_data(self):
+		# def create_training_data(self):
 		for category in CATEGORIES:  # do dogs and cats
 			path = os.path.join(DATADIR,category)  # create path to dogs and cats
 			class_num = CATEGORIES.index(category)  # get the classification  (0 or a 1). 0=dog 1=cat
